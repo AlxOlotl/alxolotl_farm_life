@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "olotl_farm_mod:cobalt_block"
+    }
+  ],
+  "result": {
+    "item": "olotl_farm_mod:cobalt_ingot",
+    "count": 9
+  }
+}

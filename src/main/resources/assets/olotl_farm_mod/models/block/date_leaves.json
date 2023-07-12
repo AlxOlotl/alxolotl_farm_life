@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "olotl_farm_mod:block/date_leaves"
+  }
+}

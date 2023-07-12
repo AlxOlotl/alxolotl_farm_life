@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "olotl_farm_mod:date_wood",
+    "olotl_farm_mod:date_log",
+    "olotl_farm_mod:date_log_sheath",
+    "olotl_farm_mod:date_leaves",
+    "olotl_farm_mod:date_planks",
+    "olotl_farm_mod:stripped_date_log"
+
+
+
+  ]
+}

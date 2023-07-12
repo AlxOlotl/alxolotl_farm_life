@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/stripped_date_log",
+    "side": "minecraft:block/stripped_date_log_horizontal"
+  }
+}

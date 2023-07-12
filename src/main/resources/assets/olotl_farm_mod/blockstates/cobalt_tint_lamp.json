@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "lit=false":{ "model": "olotl_farm_mod:block/cobalt_tint_lamp"},
+    "lit=true":{ "model": "olotl_farm_mod:block/cobalt_tint_lamp_on"}
+
+  }
+}

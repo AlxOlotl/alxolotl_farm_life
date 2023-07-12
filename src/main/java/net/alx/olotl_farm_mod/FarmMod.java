@@ -1,6 +1,8 @@
 package net.alx.olotl_farm_mod;
 
 import com.mojang.logging.LogUtils;
+import net.alx.olotl_farm_mod.block.ModBlocks;
+import net.alx.olotl_farm_mod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -22,7 +24,11 @@ public class FarmMod {
     public FarmMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 

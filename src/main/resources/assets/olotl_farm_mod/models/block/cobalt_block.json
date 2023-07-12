@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "olotl_farm_mod:block/cobalt_block"
+  }
+}
