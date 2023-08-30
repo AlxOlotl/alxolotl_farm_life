@@ -3,6 +3,8 @@ package net.alx.olotl_farm_mod;
 import com.mojang.logging.LogUtils;
 import net.alx.olotl_farm_mod.block.ModBlocks;
 import net.alx.olotl_farm_mod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -43,7 +45,7 @@ public class FarmMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ItemBlockRenderTypes.setRenderLayer(ModBlocks.SPINACH_CROP.get(),RenderType.cutout());
         }
     }
 }

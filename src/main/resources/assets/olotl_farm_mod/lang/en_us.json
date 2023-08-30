@@ -3,6 +3,8 @@
   "item.olotl_farm_mod.cobalt_ingot" : "Cobalt Ingot",
   "item.olotl_farm_mod.raw_cobalt" : "Raw Cobalt",
   "item.olotl_farm_mod.eight_ball" : "Eight Ball",
+  "item.olotl_farm_mod.spinach" : "Spinach",
+  "item.olotl_farm_mod.spinach_seeds" : "Spinach Seeds",
 
   "block.olotl_farm_mod.cobalt_block" : "Cobalt Block",
   "block.olotl_farm_mod.cobalt_ore" : "Cobalt Ore",
@@ -15,6 +17,8 @@
   "block.olotl_farm_mod.stripped_date_log" : "Stripped Date Log",
   "block.olotl_farm_mod.date_planks" : "Date Planks",
   "block.olotl_farm_mod.date_leaves" : "Date Leaves",
+
+  "block.olotl_farm_mod.spinach_crop" : "Spinach Crop",
 
   "block.olotl_farm_mod.zoom_block" : "ZOOM Block",
   "block.olotl_farm_mod.cobalt_tint_lamp" : "Cobalt Tinted Lamp",

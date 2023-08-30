@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "olotl_farm_mod:block/spinach_stage3"
+  }
+}
