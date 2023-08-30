@@ -28,7 +28,7 @@ public class SpinachCropBlock extends CropBlock {
 
     @Override
     public int getMaxAge() {
-        return 4;
+        return 3;
     }
 
     @Override

@@ -27,12 +27,12 @@
             },
             {
               "type": "minecraft:item",
-              "name": "olotl_farm_mod:spinach_seeds"
+              "name": "olotl_farm_mod:spinach"
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 2.0
     },
     {
       "bonus_rolls": 0.0,

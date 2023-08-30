@@ -3,6 +3,7 @@ package net.alx.olotl_farm_mod.block;
 
 import net.alx.olotl_farm_mod.FarmMod;
 import net.alx.olotl_farm_mod.block.custom.CobaltTintLampBlock;
+import net.alx.olotl_farm_mod.block.custom.SpinachCropBlock;
 import net.alx.olotl_farm_mod.block.custom.ZoomBlock;
 import net.alx.olotl_farm_mod.item.ModCreativeModeTab;
 import net.alx.olotl_farm_mod.item.ModItems;
@@ -88,8 +89,8 @@ public class ModBlocks {
                     .lightLevel(state -> state.getValue(CobaltTintLampBlock.LIT) ? 15 : 0)), ModCreativeModeTab.OLOTL_FARM_TAB);
 
     //Crops
-    public static final RegistryObject<Block> SPINACH_CROP =BLOCKS.register("spinach_crop",
-            () ->new SeaPickleBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> SPINACH_CROP = registerBlock("spinach_crop",
+            () -> new SpinachCropBlock(BlockBehaviour.Properties.copy(Blocks.BEETROOTS)), ModCreativeModeTab.OLOTL_FARM_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
